@@ -2,7 +2,6 @@ easyocr
 selenium
 webdriver-manager
 schedule
-# 아래는 torch의 CPU 버전만 설치하도록 지정
 torch==2.1.2+cpu
 torchvision==0.16.2+cpu
---index-url https://download.pytorch.org/whl/cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
